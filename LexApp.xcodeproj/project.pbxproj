@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EFEF2AB01E344939006266A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF2AAF1E344939006266A8 /* AppDelegate.swift */; };
-		EFEF2AB21E344939006266A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF2AB11E344939006266A8 /* ViewController.swift */; };
 		EFEF2AB51E344939006266A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEF2AB31E344939006266A8 /* Main.storyboard */; };
 		EFEF2AB71E344939006266A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEF2AB61E344939006266A8 /* Assets.xcassets */; };
 		EFEF2ABA1E344939006266A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEF2AB81E344939006266A8 /* LaunchScreen.storyboard */; };
@@ -59,6 +58,10 @@
 		EFEF2B111E346C23006266A8 /* AWSSNS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EFEF2AE41E346C22006266A8 /* AWSSNS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EFEF2B121E346C23006266A8 /* AWSSQS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEF2AE51E346C22006266A8 /* AWSSQS.framework */; };
 		EFEF2B131E346C23006266A8 /* AWSSQS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EFEF2AE51E346C22006266A8 /* AWSSQS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EFEF2B181E349A24006266A8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF2B171E349A24006266A8 /* Constants.swift */; };
+		EFEF2B1C1E349ACC006266A8 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF2B191E349ACC006266A8 /* ChatViewController.swift */; };
+		EFEF2B1D1E349ACC006266A8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF2B1A1E349ACC006266A8 /* TableViewController.swift */; };
+		EFEF2B1E1E349ACC006266A8 /* VoiceChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF2B1B1E349ACC006266A8 /* VoiceChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,7 +113,6 @@
 /* Begin PBXFileReference section */
 		EFEF2AAC1E344938006266A8 /* LexApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LexApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEF2AAF1E344939006266A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFEF2AB11E344939006266A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFEF2AB41E344939006266A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFEF2AB61E344939006266A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFEF2AB91E344939006266A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -141,6 +143,10 @@
 		EFEF2AE31E346C22006266A8 /* AWSSimpleDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSimpleDB.framework; path = Carthage/Build/iOS/AWSSimpleDB.framework; sourceTree = "<group>"; };
 		EFEF2AE41E346C22006266A8 /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSNS.framework; path = Carthage/Build/iOS/AWSSNS.framework; sourceTree = "<group>"; };
 		EFEF2AE51E346C22006266A8 /* AWSSQS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSQS.framework; path = Carthage/Build/iOS/AWSSQS.framework; sourceTree = "<group>"; };
+		EFEF2B171E349A24006266A8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EFEF2B191E349ACC006266A8 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		EFEF2B1A1E349ACC006266A8 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EFEF2B1B1E349ACC006266A8 /* VoiceChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +213,10 @@
 			isa = PBXGroup;
 			children = (
 				EFEF2AAF1E344939006266A8 /* AppDelegate.swift */,
-				EFEF2AB11E344939006266A8 /* ViewController.swift */,
+				EFEF2B191E349ACC006266A8 /* ChatViewController.swift */,
+				EFEF2B1A1E349ACC006266A8 /* TableViewController.swift */,
+				EFEF2B1B1E349ACC006266A8 /* VoiceChatViewController.swift */,
+				EFEF2B171E349A24006266A8 /* Constants.swift */,
 				EFEF2AB31E344939006266A8 /* Main.storyboard */,
 				EFEF2AB61E344939006266A8 /* Assets.xcassets */,
 				EFEF2AB81E344939006266A8 /* LaunchScreen.storyboard */,
@@ -378,8 +387,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFEF2AB21E344939006266A8 /* ViewController.swift in Sources */,
 				EFEF2AB01E344939006266A8 /* AppDelegate.swift in Sources */,
+				EFEF2B1C1E349ACC006266A8 /* ChatViewController.swift in Sources */,
+				EFEF2B1E1E349ACC006266A8 /* VoiceChatViewController.swift in Sources */,
+				EFEF2B1D1E349ACC006266A8 /* TableViewController.swift in Sources */,
+				EFEF2B181E349A24006266A8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
