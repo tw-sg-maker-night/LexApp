@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFEF2AB01E344939006266A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF2AAF1E344939006266A8 /* AppDelegate.swift */; };
+		EFEF2AB21E344939006266A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF2AB11E344939006266A8 /* ViewController.swift */; };
+		EFEF2AB51E344939006266A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEF2AB31E344939006266A8 /* Main.storyboard */; };
+		EFEF2AB71E344939006266A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEF2AB61E344939006266A8 /* Assets.xcassets */; };
+		EFEF2ABA1E344939006266A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEF2AB81E344939006266A8 /* LaunchScreen.storyboard */; };
+		EFEF2AC51E344939006266A8 /* LexAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF2AC41E344939006266A8 /* LexAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFEF2AC11E344939006266A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFEF2AA41E344938006266A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFEF2AAB1E344938006266A8;
+			remoteInfo = LexApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFEF2AAC1E344938006266A8 /* LexApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LexApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEF2AAF1E344939006266A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFEF2AB11E344939006266A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFEF2AB41E344939006266A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFEF2AB61E344939006266A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFEF2AB91E344939006266A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFEF2ABB1E344939006266A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEF2AC01E344939006266A8 /* LexAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LexAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEF2AC41E344939006266A8 /* LexAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexAppTests.swift; sourceTree = "<group>"; };
+		EFEF2AC61E344939006266A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFEF2AA91E344938006266A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEF2ABD1E344939006266A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFEF2AA31E344938006266A8 = {
+			isa = PBXGroup;
+			children = (
+				EFEF2AAE1E344938006266A8 /* LexApp */,
+				EFEF2AC31E344939006266A8 /* LexAppTests */,
+				EFEF2AAD1E344938006266A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFEF2AAD1E344938006266A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFEF2AAC1E344938006266A8 /* LexApp.app */,
+				EFEF2AC01E344939006266A8 /* LexAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFEF2AAE1E344938006266A8 /* LexApp */ = {
+			isa = PBXGroup;
+			children = (
+				EFEF2AAF1E344939006266A8 /* AppDelegate.swift */,
+				EFEF2AB11E344939006266A8 /* ViewController.swift */,
+				EFEF2AB31E344939006266A8 /* Main.storyboard */,
+				EFEF2AB61E344939006266A8 /* Assets.xcassets */,
+				EFEF2AB81E344939006266A8 /* LaunchScreen.storyboard */,
+				EFEF2ABB1E344939006266A8 /* Info.plist */,
+			);
+			path = LexApp;
+			sourceTree = "<group>";
+		};
+		EFEF2AC31E344939006266A8 /* LexAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFEF2AC41E344939006266A8 /* LexAppTests.swift */,
+				EFEF2AC61E344939006266A8 /* Info.plist */,
+			);
+			path = LexAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFEF2AAB1E344938006266A8 /* LexApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEF2AC91E344939006266A8 /* Build configuration list for PBXNativeTarget "LexApp" */;
+			buildPhases = (
+				EFEF2AA81E344938006266A8 /* Sources */,
+				EFEF2AA91E344938006266A8 /* Frameworks */,
+				EFEF2AAA1E344938006266A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LexApp;
+			productName = LexApp;
+			productReference = EFEF2AAC1E344938006266A8 /* LexApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFEF2ABF1E344939006266A8 /* LexAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFEF2ACC1E344939006266A8 /* Build configuration list for PBXNativeTarget "LexAppTests" */;
+			buildPhases = (
+				EFEF2ABC1E344939006266A8 /* Sources */,
+				EFEF2ABD1E344939006266A8 /* Frameworks */,
+				EFEF2ABE1E344939006266A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFEF2AC21E344939006266A8 /* PBXTargetDependency */,
+			);
+			name = LexAppTests;
+			productName = LexAppTests;
+			productReference = EFEF2AC01E344939006266A8 /* LexAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFEF2AA41E344938006266A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ThoughtWorks;
+				TargetAttributes = {
+					EFEF2AAB1E344938006266A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9269KSNZG8;
+						ProvisioningStyle = Automatic;
+					};
+					EFEF2ABF1E344939006266A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9269KSNZG8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFEF2AAB1E344938006266A8;
+					};
+				};
+			};
+			buildConfigurationList = EFEF2AA71E344938006266A8 /* Build configuration list for PBXProject "LexApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFEF2AA31E344938006266A8;
+			productRefGroup = EFEF2AAD1E344938006266A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFEF2AAB1E344938006266A8 /* LexApp */,
+				EFEF2ABF1E344939006266A8 /* LexAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFEF2AAA1E344938006266A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEF2ABA1E344939006266A8 /* LaunchScreen.storyboard in Resources */,
+				EFEF2AB71E344939006266A8 /* Assets.xcassets in Resources */,
+				EFEF2AB51E344939006266A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEF2ABE1E344939006266A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFEF2AA81E344938006266A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEF2AB21E344939006266A8 /* ViewController.swift in Sources */,
+				EFEF2AB01E344939006266A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFEF2ABC1E344939006266A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEF2AC51E344939006266A8 /* LexAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFEF2AC21E344939006266A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFEF2AAB1E344938006266A8 /* LexApp */;
+			targetProxy = EFEF2AC11E344939006266A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFEF2AB31E344939006266A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEF2AB41E344939006266A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFEF2AB81E344939006266A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFEF2AB91E344939006266A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFEF2AC71E344939006266A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFEF2AC81E344939006266A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFEF2ACA1E344939006266A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9269KSNZG8;
+				INFOPLIST_FILE = LexApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twsg.LexApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFEF2ACB1E344939006266A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9269KSNZG8;
+				INFOPLIST_FILE = LexApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twsg.LexApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFEF2ACD1E344939006266A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9269KSNZG8;
+				INFOPLIST_FILE = LexAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twsg.LexAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LexApp.app/LexApp";
+			};
+			name = Debug;
+		};
+		EFEF2ACE1E344939006266A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9269KSNZG8;
+				INFOPLIST_FILE = LexAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twsg.LexAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LexApp.app/LexApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFEF2AA71E344938006266A8 /* Build configuration list for PBXProject "LexApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEF2AC71E344939006266A8 /* Debug */,
+				EFEF2AC81E344939006266A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFEF2AC91E344939006266A8 /* Build configuration list for PBXNativeTarget "LexApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEF2ACA1E344939006266A8 /* Debug */,
+				EFEF2ACB1E344939006266A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFEF2ACC1E344939006266A8 /* Build configuration list for PBXNativeTarget "LexAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFEF2ACD1E344939006266A8 /* Debug */,
+				EFEF2ACE1E344939006266A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFEF2AA41E344938006266A8 /* Project object */;
+}
